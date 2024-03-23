@@ -30,7 +30,6 @@ class sha512 ():
                 '4cc5d4becb3e42b6', '597f299cfc657e2a', '5fcb6fab3ad6faec', '6c44198c4a475817']
         self.k_bv = [BitVector(hexstring=string) for string in self.k]
 
-    # Adapted and Modified based on SHA256 code from lecture 15
     def sha512hash(self):
         h0 = BitVector(hexstring='6a09e667f3bcc908')
         h1 = BitVector(hexstring='bb67ae8584caa73b')
